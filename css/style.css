@@ -107,7 +107,7 @@ h2:after {
 
 .btn {
     display: inline-block;
-    background: #ff6b6b;
+    background: #01025c;
     color: white;
     padding: 0.8rem 2rem;
     text-decoration: none;
@@ -117,7 +117,7 @@ h2:after {
 }
 
 .btn:hover {
-    background: #ff5252;
+    background: #528fff;
     transform: translateY(-2px);
 }
 
@@ -203,7 +203,7 @@ h2:after {
 }
 
 .btn-small:hover {
-    background: #5a67d8;
+    background: #010a58;
 }
 
 .skills-container {
@@ -256,7 +256,7 @@ h2:after {
 }
 
 .contato-item:hover {
-    background: #ff6b6b;
+    background: #02014b;
     transform: translateY(-2px);
 }
 
@@ -281,5 +281,17 @@ footer {
     }
     .skills-container {
         flex-direction: column;
+    }
+}
+@media print {
+    .btn-imprimir,
+    nav,
+    footer {
+        display: none;
+    }
+
+    body {
+        background: #ffffff;
+        color: #000000;
     }
 }
